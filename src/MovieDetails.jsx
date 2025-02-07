@@ -26,7 +26,7 @@ const MovieDetails = () => {
     },[imdbID])
 
     return (
-        <div className="min-h-screen px-4 md:px-28 py-8 bg-gray-100">
+        <div className="min-h-screen px-4 md:px-28 py-12 bg-gray-100">
             {error && <div className="text-red-500 text-center">{error}</div>}
             {isLoading && <div className="text-center text-lg">Loading...</div>}
 

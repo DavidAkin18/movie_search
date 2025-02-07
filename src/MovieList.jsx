@@ -4,7 +4,7 @@ const MovieList = ({movies, error, isLoading}) => {
   
     console.log(movies);
     return ( 
-        <div className="py-6 ">
+        <div className="py-24">
             {error && <div className="text-red-500 text-center">{error}</div>}
             {isLoading && <div className="text-center text-lg">Loading...</div>}
 
