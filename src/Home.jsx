@@ -3,7 +3,7 @@ import MovieList from "./MovieList";
 import useFetch from './useFetch'
 
 const Home = () => {
-    const { data:movies, isLoading, error } = useFetch('http://www.omdbapi.com/?s=batman&apikey=56acf636');
+    const { data:movies, isLoading, error } = useFetch('https://www.omdbapi.com/?s=batman&apikey=56acf636');
 
     return ( 
         <div className="home bg-[#D3F0F4] min-h-screen px-4 md:px-28 py-8 ">

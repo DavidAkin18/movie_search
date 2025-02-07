@@ -7,7 +7,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [search, setSearch] = useState("");
     const [query, setQuery] = useState(""); 
-    const { data } = useFetch(`http://www.omdbapi.com/?s=${query}&apikey=56acf636`);
+    const { data } = useFetch(`https://www.omdbapi.com/?s=${query}&apikey=56acf636`);
     
     const [showDropdown, setShowDropdown] = useState(false);
     const dropdownRef = useRef(null);

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import useFetch from "./useFetch";
 
 const Series = () => {
-    const { data: series, error, isLoading } = useFetch('http://www.omdbapi.com/?s=batman&apikey=56acf636&type=series');
+    const { data: series, error, isLoading } = useFetch('https://www.omdbapi.com/?s=batman&apikey=56acf636&type=series');
 
 
     return ( 

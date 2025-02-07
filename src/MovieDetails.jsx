@@ -8,7 +8,7 @@ const MovieDetails = () => {
     const [error, setError] = useState(null);
 
     useEffect(()=>{
-        fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=56acf636`)
+        fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=56acf636`)
             .then((res) => {
                 if(!res.ok){
                     throw new Error("Could not fetch movie details.");
